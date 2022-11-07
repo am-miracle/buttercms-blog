@@ -11,7 +11,7 @@ const Layout = ({children}) => {
           <Heading fontSize={'3xl'} color={'white'} fontWeight={'700'}>ButterCMS Blog</Heading>
           </Link>
           <Spacer />
-          <HStack gap={10}>
+          {/* <HStack gap={10}>
             <Link to='/author'>
               <Text color={'white'} fontWeight={'extrabold'}>Authors</Text>
             </Link>
@@ -21,7 +21,8 @@ const Layout = ({children}) => {
             <Link to='/categories'>
               <Text color={'white'} fontWeight={'extrabold'}>Web Development</Text>
             </Link>
-          </HStack>
+          </HStack> */}
+          <Input htmlSize={20} bg={'white'} width='auto' placeholder='Search for blog post' />
         </Flex>
       </Box>
       <Box>
